@@ -8,6 +8,8 @@ document.querySelector("body").style.backgroundColor= "#00FF00";
 //Expressions Personal
 
 
+
+
 var credit; //Amount of deposits
 var debit; //Amount of withdrawals
 var interestRate; //Amount of Interest Rate charge by the bank
