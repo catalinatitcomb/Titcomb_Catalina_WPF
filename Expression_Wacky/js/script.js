@@ -22,7 +22,7 @@ totalCheck = (Number(check) * Number(tax)) + Number(check); //Total amount user 
 
 totalTip = Number(check) * Number(tip); //Total amount of tip user wants to pay to waiter
 
-amountToPay = Number(totalCheck) + Number(totalTip);
+amountToPay = Number(totalCheck) + Number(totalTip); //Total amount user has to pay
 
 alert("The total of your check is $ " + totalCheck + " and the tip for the waiter is $ " + totalTip + ". Please pay $ " +  amountToPay); //Window telling user how much user needs to pay total, adding total check and total tip
 
