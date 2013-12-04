@@ -4,7 +4,7 @@
 document.querySelector("body").style.backgroundColor= "#00FF00";
 
 //Catalina Titcomb
-//December 3, 2013
+//December 4, 2013
 //Expressions Wacky
 
 var check; //How much you need to pay for what you ate
