@@ -7,6 +7,8 @@ document.querySelector("body").style.backgroundColor= "#00FF00";
 //December 4, 2013
 //Expressions Wacky
 
+//This will help you to find out how much you would pay when you go to eat out, and how much you would tip to the waiter, and the whole total of the transaction
+
 var check; //How much you need to pay for what you ate
 var tax; //How much you have to pay in taxes in your state
 var tip; //What percentage of the check you want to pay the waiter
