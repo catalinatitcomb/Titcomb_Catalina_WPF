@@ -19,7 +19,7 @@ var balance; // Total Balance in Account
 
 credit = prompt("How much money do you have at the beginning of the month in your account?"); //Prompt user to enter the beginning balance
 debit = prompt("How much did you spend in the month?"); //Prompt user to enter amount spent during the month
-interestRate = prompt("how much interest does the bank charge (in decimal form)?"); //Prompt user for Bank interest rate
+interestRate = prompt("How much interest does the bank charge (in decimal form)?"); //Prompt user for Bank interest rate
 
 totalInterest = (Number(credit) - Number(debit)) * Number(interestRate); //Total interest paid to the bank
 
