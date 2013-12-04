@@ -13,9 +13,9 @@ var tip; //What percentage of the check you want to pay the waiter
 var totalCheck; //Total amount you have to pay, adding the check amount and the tax amount
 var totalTip; //How much you want to tip the waiter
 
-check = prompt("How much do the bill add?");
-tax = prompt("Enter tax percentage in your state (in decimal form)");
-tip = prompt("What percentage do you want to tip the waiter? (in decimal form)?")
+check = prompt("How much do the bill add?"); //Prompt user to enter check amount before taxes
+tax = prompt("Enter tax percentage in your state (in decimal form)"); //Prompt user to enter tax amount charge in the state where user lives
+tip = prompt("What percentage do you want to tip the waiter? (in decimal form)?") //Prompt user to enter what percentage of the check user wants to pay to waiter
 
 totalCheck = (Number(check) * Number(tax)) + Number(check);
 
