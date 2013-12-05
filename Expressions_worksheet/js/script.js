@@ -38,6 +38,9 @@ people = prompt("How many friends did you invite to the party");
 slicesPerPerson = pizzas / people;
 
 
+alert("Each person ate " + slicesPerPerson + " slices of pizza at the party");
+
+console.log("Each person ate " + slicesPerPerson + " slices of pizza at the party");
 
 
 
