@@ -11,6 +11,10 @@ var sparkysAge;
 var dogYears;
 var human = 7;
 
+sparkysAge = prompt("Enter Sparky's age: ");
+dogYears = Number(sparkysAge) * human;
+sparkysAge = dogYears / human;
+
 
 
 
