@@ -16,7 +16,7 @@ content = layOutWidth / divineProportion; //Formula to find the biggest part of 
 sideBar = Number(layOutWidth) - Number(content); //Formula to find the smallest area of the layout
 
 alert("The Content of Your Layout is:" + " " + content + " pixels."); //Alert informs user of size of layout content
-alert("Side Bar of Your Layout is: " + sideBar + " pixels.");
+alert("Side Bar of Your Layout is: " + sideBar + " pixels."); //Alert informs user of size of layout side bar
 
 console.log("The content of Your Layout is:" + " " + content + " pixels.");
 console.log("Side Bar of Your Layout is: " + sideBar + " pixels.");
