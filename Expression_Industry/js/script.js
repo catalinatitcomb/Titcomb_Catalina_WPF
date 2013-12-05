@@ -11,4 +11,12 @@ var proportion = 1.62;
 var sideBar;
 var divineProportion;
 
+width = prompt("Please Enter Width of Your Layout:");
+divineProportion = width / proportion;
+sideBar = Number(width) - Number(divineProportion);
 
+alert("Divine Proportion for Your Layout is:" + " " + divineProportion + " pixels.");
+alert("Side Bar of Your Layout is: " + sideBar + " pixels.");
+
+console.log("Divine Proportion for Your Layout is:" + " " + divineProportion + " pixels.");
+console.log("Side Bar of Your Layout is: " + sideBar + " pixels.");
