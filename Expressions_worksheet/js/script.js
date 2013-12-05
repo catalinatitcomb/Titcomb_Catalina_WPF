@@ -64,9 +64,11 @@ sparky = pizzas - totalSlicesEaten; //How many slices Sparky ate
 
 alert("Sparky got " + sparky + " slices of pizza");
 
-console.log("How many slices eaten: " + totalSlicesEaten");
+console.log("How many slices eaten: " + totalSlicesEaten);
 
 console.log("Sparky got " + sparky + " slices of pizza");
+
+
 
 
 
