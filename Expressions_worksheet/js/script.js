@@ -7,7 +7,7 @@
 
 //Dog years
 
-alert("Dog Years");
+alert("Exercise # 1: Dog Years");
 
 var sparkysAge; //How old is Sparky the Pit Bull
 var dogYears; //How old is Sparky in human years
@@ -25,7 +25,7 @@ console.log("Sparky is " + sparkysAge + " in human years, which is " + sparkysAg
 
 //Slice of Pie I
 
-alert("New Exercise: Slice of Pizza I");
+alert("Exercise # 2: Slice of Pie I");
 
 var pizzaSlices = 6; //How many slices are in a pizza
 var people; //How many people went to the party
@@ -35,12 +35,41 @@ var slicesPerPerson; //How many slices of pizza per person
 pizzas = prompt("How many pizzas did you order for the party?"); //Prompt user to enter how many pizzas were ordered
 pizzas = pizzaSlices * pizzas; //How many slices total per total amount of pizzas
 people = prompt("How many friends did you invite to the party"); //Prompt user to enter how many people he invited
-slicesPerPerson = pizzas / people; //How many slices per person
+slicesPerPerson = pizzas / people; //How many slices per person;
 
 
 alert("Each person ate " + slicesPerPerson + " slices of pizza at the party");
 
 console.log("Each person ate " + slicesPerPerson + " slices of pizza at the party");
+
+
+alert("Exercise # 3: Slice of Pie II");
+
+var pizzaSlices = 6; //How many slices are in a pizza
+var people; //How many people went to the party
+var pizzas; //How many pizzas were ordered
+var slicesPerPerson; //How many slices of pizza per person
+var totalSlicesEaten; //Total slices eaten
+var sparky; //How many slices for Sparky
+
+pizzas = prompt("How many pizzas did you order for the party?"); //Prompt user to enter how many pizzas were ordered
+pizzas = pizzaSlices * pizzas; //How many slices total per total amount of pizzas
+people = prompt("How many friends did you invite to the party"); //Prompt user to enter how many people he invited
+slicesPerPerson = pizzas / people; //How many slices per person
+totalSlicesEaten = (pizzas - slicesPerPerson); //Slices for Sparky
+
+alert("How many slices eaten: " + totalSlicesEaten);
+
+sparky = pizzas - totalSlicesEaten; //How many slices Sparky ate
+
+alert("Sparky got " + sparky + " slices of pizza");
+
+console.log("How many slices eaten: " + totalSlicesEaten");
+
+console.log("Sparky got " + sparky + " slices of pizza");
+
+
+
 
 
 
