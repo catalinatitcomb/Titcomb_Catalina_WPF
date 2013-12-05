@@ -12,7 +12,7 @@ var sideBar; //Small area to the right of content
 var content;//Area of the block that we are going to work to create a balance design
 
 layOutWidth = prompt("Please Enter Width of Your Layout:"); //Prompt User to enter the width of the layout
-content = layOutWidth / divineProportion;
+content = layOutWidth / divineProportion; //Formula to find the biggest part of the block; that's the area where we will work to create a balanced website
 sideBar = Number(layOutWidth) - Number(content);
 
 alert("The Content of Your Layout is:" + " " + content + " pixels.");
