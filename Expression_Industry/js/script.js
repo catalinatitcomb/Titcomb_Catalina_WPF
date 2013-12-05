@@ -6,12 +6,12 @@
 //It is not only to have beautiful colors in a design, one of the most important facts in a design is that it is well balanced.
 //The Divine Proportion helps us to create a well balanced design, and this makes that design look wonderful.
 
-var layOutWidth;
-var divineProportion = 1.62;
-var sideBar;
-var content;
+var layOutWidth; //Total width of the block
+var divineProportion = 1.62; //Divine Proportion
+var sideBar; //Small area to the right of content
+var content;//Area of the block that we are going to work to create a balance design
 
-layOutWidth = prompt("Please Enter Width of Your Layout:");
+layOutWidth = prompt("Please Enter Width of Your Layout:"); 
 content = layOutWidth / divineProportion;
 sideBar = Number(layOutWidth) - Number(content);
 
