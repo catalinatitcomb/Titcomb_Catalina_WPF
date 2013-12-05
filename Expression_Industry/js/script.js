@@ -15,8 +15,8 @@ layOutWidth = prompt("Please Enter Width of Your Layout:");
 content = layOutWidth / divineProportion;
 sideBar = Number(layOutWidth) - Number(content);
 
-alert("Divine Proportion for Your Layout is:" + " " + content + " pixels.");
+alert("The Content of Your Layout is:" + " " + content + " pixels.");
 alert("Side Bar of Your Layout is: " + sideBar + " pixels.");
 
-console.log("Divine Proportion for Your Layout is:" + " " + content + " pixels.");
+console.log("The content of Your Layout is:" + " " + content + " pixels.");
 console.log("Side Bar of Your Layout is: " + sideBar + " pixels.");
