@@ -7,12 +7,12 @@
 //The Divine Proportion helps us to create a well balanced design, and this makes that design look wonderful.
 
 var layOutWidth;
-var proportion = 1.62;
+var divineProportion = 1.62;
 var sideBar;
 var content;
 
 layOutWidth = prompt("Please Enter Width of Your Layout:");
-content = layOutWidth / proportion;
+content = layOutWidth / divineProportion;
 sideBar = Number(layOutWidth) - Number(content);
 
 alert("Divine Proportion for Your Layout is:" + " " + content + " pixels.");
