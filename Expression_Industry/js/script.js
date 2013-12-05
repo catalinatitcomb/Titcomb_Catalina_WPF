@@ -15,7 +15,7 @@ layOutWidth = prompt("Please Enter Width of Your Layout:"); //Prompt User to ent
 content = layOutWidth / divineProportion; //Formula to find the biggest part of the layout; that's the area where we will work to create a balanced website
 sideBar = Number(layOutWidth) - Number(content); //Formula to find the smallest area of the layout
 
-alert("The Content of Your Layout is:" + " " + content + " pixels.");
+alert("The Content of Your Layout is:" + " " + content + " pixels."); //Alert informs user of size of layout content
 alert("Side Bar of Your Layout is: " + sideBar + " pixels.");
 
 console.log("The content of Your Layout is:" + " " + content + " pixels.");
