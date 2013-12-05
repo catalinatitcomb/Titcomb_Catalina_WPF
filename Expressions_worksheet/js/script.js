@@ -7,6 +7,8 @@
 
 //Dog years
 
+alert("Dog Years");
+
 var sparkysAge; //How old is Sparky the Pit Bull
 var dogYears; //How old is Sparky in human years
 var human = 7; //One year old in human years is seven years old in dog years
@@ -19,5 +21,14 @@ sparkysAge = dogYears / human; //Seven years old in human is one year old in dog
 alert("Sparky is " + dogYears + " in human years, which is " + sparkysAge + " in dog years.");
 
 console.log("Sparky is " + sparkysAge + " in human years, which is " + sparkysAge + " in dog years.");
+
+
+//Slice of Pie I
+
+alert("New Exercise: Slice of Pizza I");
+
+
+
+
 
 
