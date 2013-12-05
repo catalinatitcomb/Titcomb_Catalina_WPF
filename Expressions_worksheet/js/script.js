@@ -27,6 +27,11 @@ console.log("Sparky is " + sparkysAge + " in human years, which is " + sparkysAg
 
 alert("New Exercise: Slice of Pizza I");
 
+var pizzaSlices = 6;
+var people;
+var pizzas;
+var slicesPerPerson;
+
 
 
 
