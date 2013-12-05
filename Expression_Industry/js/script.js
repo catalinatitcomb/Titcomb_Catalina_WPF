@@ -11,7 +11,7 @@ var divineProportion = 1.62; //Divine Proportion
 var sideBar; //Small area to the right of content
 var content;//Area of the block that we are going to work to create a balance design
 
-layOutWidth = prompt("Please Enter Width of Your Layout:"); 
+layOutWidth = prompt("Please Enter Width of Your Layout:"); //Prompt User to enter the width of the layout
 content = layOutWidth / divineProportion;
 sideBar = Number(layOutWidth) - Number(content);
 
