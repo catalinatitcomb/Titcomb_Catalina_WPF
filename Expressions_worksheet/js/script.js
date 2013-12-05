@@ -16,5 +16,8 @@ dogYears = Number(sparkysAge) * human;
 sparkysAge = dogYears / human;
 
 
+alert("Sparky is " + dogYears + " in human years, which is " + sparkysAge + " in dog years.");
+
+console.log("Sparky is " + sparkysAge + " in human years, which is " + sparkysAge + " in dog years.");
 
 
