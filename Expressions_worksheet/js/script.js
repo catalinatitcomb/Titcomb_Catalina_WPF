@@ -7,9 +7,9 @@
 
 //Dog years
 
-var sparkysAge;
-var dogYears;
-var human = 7;
+var sparkysAge; //How old is Sparky the Pit Bull
+var dogYears; //How old is Sparky in human years
+var human = 7;//One year old in human years is seven years old in dog years
 
 sparkysAge = prompt("Enter Sparky's age: ");
 dogYears = Number(sparkysAge) * human;
