@@ -32,6 +32,11 @@ var people;
 var pizzas;
 var slicesPerPerson;
 
+pizzas = prompt("How many pizzas did you order for the party?");
+pizzas = pizzaSlices * pizzas;
+people = prompt("How many friends did you invite to the party");
+slicesPerPerson = pizzas / people;
+
 
 
 
