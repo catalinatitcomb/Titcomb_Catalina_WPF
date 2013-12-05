@@ -27,10 +27,10 @@ console.log("Sparky is " + sparkysAge + " in human years, which is " + sparkysAg
 
 alert("New Exercise: Slice of Pizza I");
 
-var pizzaSlices = 6;
-var people;
-var pizzas;
-var slicesPerPerson;
+var pizzaSlices = 6; //How many slices are in a pizza
+var people; //How many people went to the party
+var pizzas; //How many pizzas were ordered
+var slicesPerPerson; //How many slices of pizza per person
 
 pizzas = prompt("How many pizzas did you order for the party?");
 pizzas = pizzaSlices * pizzas;
