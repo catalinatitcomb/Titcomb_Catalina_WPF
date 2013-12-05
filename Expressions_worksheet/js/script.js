@@ -5,4 +5,12 @@
 //December 4, 2013
 //Expressions Worksheet
 
+//Dog years
+
+var sparkysAge;
+var dogYears;
+var human = 7;
+
+
+
 
