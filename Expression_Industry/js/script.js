@@ -9,14 +9,14 @@
 var layOutWidth;
 var proportion = 1.62;
 var sideBar;
-var divineProportion;
+var content;
 
 layOutWidth = prompt("Please Enter Width of Your Layout:");
-divineProportion = layOutWidth / proportion;
-sideBar = Number(layOutWidth) - Number(divineProportion);
+content = layOutWidth / proportion;
+sideBar = Number(layOutWidth) - Number(content);
 
-alert("Divine Proportion for Your Layout is:" + " " + divineProportion + " pixels.");
+alert("Divine Proportion for Your Layout is:" + " " + content + " pixels.");
 alert("Side Bar of Your Layout is: " + sideBar + " pixels.");
 
-console.log("Divine Proportion for Your Layout is:" + " " + divineProportion + " pixels.");
+console.log("Divine Proportion for Your Layout is:" + " " + content + " pixels.");
 console.log("Side Bar of Your Layout is: " + sideBar + " pixels.");
