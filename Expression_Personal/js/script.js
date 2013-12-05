@@ -7,7 +7,7 @@ document.querySelector("body").style.backgroundColor= "#00FF00";
 //December 3, 2013
 //Expressions Personal
 
-
+//How to balance your checking account, knowing your beginning balance, your debits, the interest rate.
 
 
 var credit; //Amount of deposits
